@@ -1,0 +1,54 @@
+#chat {
+  width: 400px;
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+}
+
+#chat header {
+  padding: 15px;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+#chat header .toUpper {
+  font-size: 1.2em;
+}
+
+#chat main {
+  height: 350px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+#chat main .time {
+  position: absolute;
+  top: 100%;
+  right: 15px;
+}
+
+#chat main .message {
+  padding: 15px;
+  width: 70%;
+  border-radius: 10px;
+  position: relative;
+  margin: 20px 0;
+}
+
+#chat main .message.support {
+  background-color: #2f2c2c;
+  color: white;
+  float: left;
+}
+
+#chat main .message.support .time {
+  color: #000;
+}
+
+#chat main .message.user {
+  background-color: #ccc;
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

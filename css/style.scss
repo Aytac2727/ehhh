@@ -1,0 +1,53 @@
+#chat {
+    width: 400px;
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+
+    header {
+        padding: 15px;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 5px 5px 0 0;
+
+        .toUpper {
+            font-size: 1.2em;
+        }
+    }
+
+    main {
+        height: 350px;
+        border: 1px solid #ddd;
+        padding: 20px;
+        overflow-y: scroll;
+
+        .time {
+            position: absolute;
+            top: 100%;
+            right: 15px;
+        }
+
+        .message {
+            padding: 15px;
+            width: 70%;
+            border-radius: 10px;
+            position: relative;
+            margin: 20px 0;
+
+            &.support {
+                background-color: rgb(47, 44, 44);
+                color: white;
+                float: left;
+
+                .time {
+                    color: #000;
+                }
+            }
+
+            &.user {
+                background-color: #ccc;
+                float: right;
+            }
+        }
+    }
+}
